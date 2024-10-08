@@ -1,0 +1,25 @@
+/*Descendant Selector:*/
+.container p{
+    color: blue;
+}
+/*Child Selector:*/
+.container>p.child{
+    color: green;
+}
+/*Adjacent Sibling Selector:*/
+.sibling-example h2+ p.adjacent{
+    color: red;
+}
+
+/*General Sibling Selector:*/
+.far-sibling-example ~p.end{
+    color: purple;
+}
+/*Challenge Task (Optional):*/
+.container > span{
+    background-color: yellow;
+}
+
+
+
+
